@@ -25,28 +25,37 @@
   </div>
   <div class="right-side12">
     <a href="https://www.instagram.com/rdsenterprisespune/" target="_blank" class="social-icon"><img src="images/instagram.jpg" alt="Instagram"></a>
-    <a href="https://www.twitter.com" target="_blank" class="social-icon"><img src="images/twitterr.png" alt="Twitter"></a>
-    <a href="https://www.linkedin.com" target="_blank" class="social-icon"><img src="images/link.png" alt="LinkedIn"></a>
-    <a href="" target="_blank" class="social-icon"><img src="images/like.png" alt="LinkedIn"></a>
+    <a href="https://www.linkedin.com/in/rds-enterprises-4a9a1733b/" target="_blank" class="social-icon"><img src="images/linkdin1.png" alt="LinkedIn"></a>
 
   </div>
 </div>
-  <nav class="navbar">
-    <div class="logo-container">
-      <a href="#" class="logo">
-        <img src="images/logo.png" alt="Logo" class="logo">
-      </a>
-    </div>
-    <ul class="nav-links">
-      <a href="about.html">About Us</a>
-      <a href="services.html">Services</a>
-      <a href="gallery.html">Gallery</a>
-       <a href="jobs.html">Jobs</a>
-      <a href="clients.html">Our Clients</a>
-      <a href="contact.html">Contact</a>
-    </ul>
-  </nav>
+<nav class="navbar">
+  <div class="logo-container">
+    <a href="#" class="logo">
+      <img src="images/logo.png" alt="Logo" class="logo">
+    </a>
+  </div>
+  <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div> <!-- Hamburger icon -->
+  
+  <ul class="nav-links">
+    <a href="about.html">About Us</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+    <!-- <a href="jobs.html">Jobs</a> -->
+    <a href="careers.html">Careers</a>
 
+    <a href="clients.html">Our Clients</a>
+    <a href="contact.html">Contact</a>
+  </ul>
+</nav>
+<script>
+function toggleMenu() {
+  const navbar = document.querySelector('.navbar');
+  
+  navbar.classList.toggle('show-menu');
+}
+
+</script>
 </header>
 
   <section id="gallery" class="section">
@@ -113,7 +122,7 @@
           <div class="hiring-text">
             <span class="green-text">We</span> <span class="black-text">are Hiring</span>
           </div>
-          <img src="images/hiring10.jpeg" alt="Right Box Image">
+          <img src="images/hiring11.jpeg" alt="Right Box Image">
           
         </div>
       </div>

@@ -1,0 +1,28 @@
+
+@media (max-width: 480px) {
+    .navbar {
+      flex-direction: column; /* Stack items in column format */
+      padding: 3px;
+      height: 10vh; /* Set navbar height to 10% of viewport height */
+      top: 20px; 
+    }
+  
+   
+  
+    .nav-links {
+      flex-direction: row !important; /* Force links to be in a row */
+      justify-content: space-between; /* Evenly distribute links */
+      align-items: center; /* Center vertically */
+      gap: 4px; /* Add spacing between links */
+      width: 100%; /* Use full width */
+      margin: 0; /* Remove margins */
+      padding: 0; /* Remove padding */
+    }
+  
+    .nav-links a {
+      font-size: 0.3rem; /* Adjust font size for smaller screens */
+      padding: 3px 2px; /* Adjust padding for better spacing */
+      text-align: center; /* Center text */
+      white-space: nowrap; /* Prevent text wrapping */
+    }
+  }
